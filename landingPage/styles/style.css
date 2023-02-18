@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+body{
+    width:200vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+font-family: 'Poppins', sans-serif;
+}
+.background{
+    height: 100vh;
+    width:100vw;
+}
+header{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    width:90%;
+     display: flex; 
+    justify-content: center;
+ 
+}
+.headerimage{
+
+  width:80%;
+}
+.headerimage>img{
+    width: 95%;
+ margin-left: 20px;
+ margin-top: 10px;
+ overflow: hidden;
+}
+
+.containermainsection{
+    background-color:white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 70%;
+   height: 100%;
+    margin-top: 0%;
+    margin-left: 10%;
+    gap:100px;
+
+}
+
+.image{
+    position: relative;
+    top: 0;
+    left:100px;
+    padding: 10px;
+}
+.image>img{
+    
+    height: 150px;
+    width:150px;
+}
+.secureaccessworldwide{
+  background-color:white;
+    width: 200px;
+    height: 150px;
+ position: relative;
+ top: 10px;
+}
+button{
+    color: white;
+  background-color: darkgreen;
+    border-radius: 5px;
+}
+button:hover{
+    color: black;
+   
+    font-size: large;
+ 
+    background-color: rgba(187, 255, 0, 0.82);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
+}
+.oneclick{
+    position: relative;
+    top: 30px;
+    left:100px;
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+    background-color: white;
+}
+.tosafer{
+    position: relative;
+    top: 30px;
+  
+    width: 200px;
+    height: 150px;
+}
+.tosafer>img{
+ height: 150px;
+ width:200px;
+}
+.computerimage{
+
+ position: relative;
+ top: 0;
+ left:100px;
+ padding: 10px;
+
+}
+.computerimage>img{
+    position:relative;
+    top:30px;
+    height: 150px;
+    width:150px;
+}
+ .anydevice{
+   margin-top: 50px;
+   width:250px;
+
+} 
+ .fa-ul{
+    display:flex;
+    justify-content: center;
+    gap:20px;  
+} 
+.threeimages{
+ 
+   margin-top: 30px;
+   margin-left: 100px;
+   margin-right: 100px;
+ 
+
+    
+}
+.raperofimages{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   position: relative;
+    
+    left: 170px; 
+   margin-right: 400px;
+  gap:50px;
+
+}
+.globe{
+    position: relative;
+    top:200px;
+    left:100px;
+}
+span{
+    font-size: x-large;
+}
+span:hover{
+    text-transform: uppercase;
+text-decoration: underline;
+text-align: center;
+}
+
+
+
+
