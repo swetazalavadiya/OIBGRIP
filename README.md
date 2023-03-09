@@ -1,3 +1,3 @@
 # OIBGRIP
 
-make your own poertfolio using with HTML,CSS and Bootstraps.
+make your own portfolio using with HTML,CSS and Bootstraps.
